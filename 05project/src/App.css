@@ -1,0 +1,12 @@
+body{
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+ol{
+  background-color: rgb(217, 239, 239);
+  font-size: 22px;
+  padding: 50px;
+  border-radius: 10px;
+}
