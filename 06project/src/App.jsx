@@ -117,7 +117,7 @@ let App =()=>{
         <th>Year</th>
         <th>Skills</th>
         <th>E-mail</th>
-        <th></th>
+        
       </tr>
 
       {
