@@ -18,7 +18,7 @@ function App() {
       </div>
       <h1>Welcome React app</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count -1)}>
+        <button onClick={() => setCount((count) => count + 1)}>
         Tom Zentrox  {count}
         </button>
         <p>

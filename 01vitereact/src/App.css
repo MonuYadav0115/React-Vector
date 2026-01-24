@@ -38,5 +38,9 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: black;
+  font-size: large;
+  background-color: rgb(226, 94, 94);
+  padding: 10px;
+  border-radius: 5px;
 }
