@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
@@ -20,19 +19,17 @@ function App() {
   return (
     <>
       <h1>Vector India Institute Hyderabad </h1>
+      
       <h2>Counter Value {Counter}</h2>
       <button
       onClick={Increased}
-      >Increased Value 👍</button>
+      >Increased Value</button>
 
       <br />
 
       <button
       onClick={Decreased}
-      >Decreased Value 👎</button>
-
-      
-        
+      >Decreased Value </button> 
     </>
   )
 }
