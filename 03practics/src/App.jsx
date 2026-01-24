@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
@@ -13,6 +12,9 @@ function App() {
   const decreasedvalue = ()=>{
     if(counter > 0)
       setcounter(counter - 1)
+  }
+  const reset = () =>{
+    setcounter(0)
   }
 
   let name = "Zetrox"
@@ -75,6 +77,8 @@ function App() {
         <button
         onClick={decreasedvalue}
         >Decreased Value</button>
+        <br />
+        <button onClick={reset}>Reset</button>
       </div>
 
     </div>

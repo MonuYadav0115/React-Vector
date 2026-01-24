@@ -3,7 +3,7 @@ body{
   justify-content: center;
   background-color: rgb(218, 212, 212);
 
-}
+} 
 h1{
   background-color: rgb(107, 255, 255);
   border-radius: 10px;
@@ -58,6 +58,7 @@ button{
   margin: 8px;
   
 }
+
 
 
 
