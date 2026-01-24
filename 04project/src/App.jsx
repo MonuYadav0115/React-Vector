@@ -10,7 +10,7 @@ let App=()=>{
       <p>Name : {data.name}</p>
       <p>Age : {data.age}</p>
       <p>Department : {data.dep}</p>
-      <p>Marks : {data.marks}</p>
+      <p>Marks : {data.marks}</p> 
 
     </div>
   </div>)
