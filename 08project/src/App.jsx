@@ -1,34 +1,53 @@
 
 import './App.css'
+import Card from './Card'
+import Button from './Button'
 
-let App = () =>{
-  let style1 = {"Color":"white" , "background-color":"black" , "border":"2px solid yellow" , "padding":"30px 30px"}
+let App = () => {
 
-  let style2 = {"color":"green" , "background-color":"gray" , "border":"2px solid yellow" , "padding":"30px 30px"}
+  let style1 = {
+    color: "white",
+    backgroundColor: "black",
+    border: "2px solid yellow",
+    padding: "30px",
+   
+  }
 
-  let style3 = {"color":"pink" , "background-color":"crimson" , "border":"2px solid yellow" , "padding":"30px 30px"}
+  let style2 = {
+    color: "green",
+    backgroundColor: "gray",
+    border: "2px solid yellow",
+    padding: "30px"
+  }
 
-  return (<div>
-    <card name = "Zentox" age = {20} gender = "male"/>
-    <card name = "Bravix" age = {21} gender = "Female"/>
-    <card name = "Tom" age = {22} gender = "male"/>
+  let style3 = {
+    color: "pink",
+    backgroundColor: "crimson",
+    border: "2px solid yellow",
+    padding: "30px"
+  }
 
-    <h1 style={{"color":"orange" , "border":"2px solid gray"}}>Welcome</h1>
-    <h1 style={style1}>Welcome zentrox</h1>
-    <button label="click" style={style1}/>
-    <button label="register" style={style2}/>
-    <button label="login" style={style1}/>
-    <button label="logout" style={style3}/>
-  </div>)
+  return (
+    <div>
+      <Card name="Zentox" age={20} gender="Male" />
+      <Card name="Bravix" age={21} gender="Female" />
+      <Card name="Tom" age={22} gender="Male" />
+
+      <h1 style={{ color: "orange", border: "2px solid gray" }}>
+        Welcome
+      </h1>
+
+      <h1 style={{color:"green",border:"2px solid gray"}}>Welcome Zentox</h1>
+
+      <Button label="Click" style={style1} />
+      <Button label="Register" style={style2} />
+      <Button label="Login" style={style1} />
+      <Button label="Logout" style={style3} />
+    </div>
+  )
+
+
 }
-
-let card = (props) =>{
-  return (<div className='card'> 
-  <p>Name:{props.name}</p>
-  <p>Age:{props.age}</p>
-  <p>Gender:{props.gender}</p>
-  </div>)
-}
-
 
 export default App
+

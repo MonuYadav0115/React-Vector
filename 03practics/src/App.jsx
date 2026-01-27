@@ -28,7 +28,7 @@ function App() {
   return (
     <div className='container'>
       <div className='left'>
-        <h1>React Table </h1>
+        <h1>Information Table </h1>
         <table className="mytable">
           <thead>
             <tr>

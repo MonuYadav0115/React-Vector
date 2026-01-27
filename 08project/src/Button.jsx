@@ -1,7 +1,11 @@
+let Button = (props) => {
+  let { label, style } = props
 
-let Button =(props) =>{
-    let{label,style} = props
-    return (<button style={style}>{label}</button>)
+  return (
+    <button style={style}>
+      {label}
+    </button>
+  )
 }
 
 export default Button
