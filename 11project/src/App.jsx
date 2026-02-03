@@ -12,12 +12,14 @@ const App = () => {
 
   const [arr, setArr] = useState([])
 
-  // handle input change
+  // handle input change 
+
   const fun = (e) => {
     setData({ ...data, [e.target.name]: e.target.value })
   }
 
   // add task
+  
   const add = () => {
     if (!data.title || !data.desc || !data.dept || !data.dl) {
       alert("Please fill all fields")
