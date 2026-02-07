@@ -15,7 +15,10 @@ const App = () => {
   }, [])
 
   return (
+    <> 
+    <p>Digital Clock </p>
     <div>{time.toLocaleTimeString()}</div>
+    </>
   )
 }
 
